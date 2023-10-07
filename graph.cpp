@@ -52,6 +52,7 @@ int main(){
         }
     }
     Graph g(numNodes,std::move(csrList),std::move(csrWeights));
+    
     // for(int i=0;i<g.csrOffsets.size();i++){
     //     std::cout<<g.csrOffsets[i]<<" ";
     // }
